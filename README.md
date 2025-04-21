@@ -1,93 +1,86 @@
-# React + Vite
+React + Vite
 
-# 🛍️ E-Ticaret Yönetim Paneli
+🛍️ E-Commerce Management Panel
+This project is a full-stack web application representing a modern e-commerce management panel. It has been developed using React and various modern web technologies.
 
-Bu proje, modern bir e-ticaret yönetim panelini temsil eden full-stack bir web uygulamasıdır. React ve çeşitli modern web teknolojileri kullanılarak geliştirilmiştir.
+🌟 Features
 
-## 🌟 Özellikler
+User Management
+🔐 Secure user login and authorization
+👤 User profile management
+🚪 Login/logout operations
 
-### Kullanıcı Yönetimi
-- 🔐 Güvenli kullanıcı girişi ve yetkilendirme
-- 👤 Kullanıcı profil yönetimi
-- 🚪 Oturum açma/kapama işlemleri
+Product Management
+📝 Adding, editing, and deleting products
+🔍 Advanced product search
+📊 Category-based filtering
+📸 Product image management
 
-### Ürün Yönetimi
-- 📝 Ürün ekleme, düzenleme ve silme
-- 🔍 Gelişmiş ürün arama
-- 📊 Kategori bazlı filtreleme
-- 📸 Ürün görsel yönetimi
+Interface
+📱 Fully responsive design
+🎨 Modern and user-friendly interface
+🌓 Gradient color scheme
+📊 Dynamic sidebar and navigation
 
-### Arayüz
-- 📱 Tam responsive tasarım
-- 🎨 Modern ve kullanıcı dostu arayüz
-- 🌓 Gradient renk şeması
-- 📊 Dinamik sidebar ve navigasyon
+🛠️ Technologies Used
+Frontend Framework: React.js
+Routing: React Router v6
+State Management: Context API & useReducer
+Styling: SCSS
+HTTP Client: Axios
+Icons: React Icons
+Authentication: JWT
 
-## 🛠️ Kullanılan Teknolojiler
+🌐 API Integrations
 
-- **Frontend Framework:** React.js
-- **Routing:** React Router v6
-- **State Management:** Context API & useReducer
-- **Styling:** SCSS
-- **HTTP Client:** Axios
-- **Icons:** React Icons
-- **Authentication:** JWT
+1. Product Data API (Northwind)
+A Northwind-like structure is used for product data in the project. Data is stored in the data.json file and includes the following structures:
+Products
+Categories
+Inventory Information
+Pricing
 
- 
-## 🌐 API Entegrasyonları
+3. Authentication API
+Platzi Fake Store API is used for user authentication.
 
-### 1. Ürün Verileri API (Northwind)
-Projede ürün verileri için Northwind benzeri bir yapı kullanılmıştır. Veriler `data.json` dosyasında tutulmakta ve şu yapıları içermektedir:
-- Ürünler (Products)
-- Kategoriler (Categories)
-- Stok Bilgileri
-- Fiyatlandırma
+🔒 Security
+JWT-based authentication
+Protected routes
+Secure API requests
 
-### 2. Kimlik Doğrulama API
-Kullanıcı yetkilendirmesi için [Platzi Fake Store API]( https://api.escuelajs.co/api/v1/users/) kullanılmıştır. 
+🎯 Key Features
+--Dynamic Product Management
+Real-time product addition/deletion
+Real-time updates
+Batch processing capabilities
 
-## 🔒 Güvenlik
+--Smart Search
+Instant search results
+Category-based filtering
+Advanced query capabilities
 
-- JWT tabanlı kimlik doğrulama
-- Korumalı rotalar
-- Güvenli API istekleri
+--Responsive Design
+Mobile-friendly interface
+Flexible grid system
+Dynamic component placement
 
-## 🎯 Önemli Özellikler
+👥 Contributing
 
-1. **Dinamik Ürün Yönetimi**
-   - Anlık ürün ekleme/silme
-   - Gerçek zamanlı güncelleme
-   - Toplu işlem yetenekleri
+Fork this repository
+Create a new branch (git checkout -b feature/NewFeature)
+Commit your changes (git commit -am 'Added new feature')
+Push your branch (git push origin feature/NewFeature)
+Create a Pull Request
 
-2. **Akıllı Arama**
-   - Anında arama sonuçları
-   - Kategori bazlı filtreleme
-   - Gelişmiş sorgu yetenekleri
+🚀 Installation
+Clone the repository: https://github.com/KbraEser/project-shop-end
+npm install
+npm run dev
+npm run api (you can fetch the API from here)
 
-3. **Responsive Tasarım**
-   - Mobil uyumlu arayüz
-   - Esnek grid sistemi
-   - Dinamik bileşen yerleşimi
+🤝 Contact
+Project Owner: [Kübra Eser]
+LinkedIn: [www.linkedin.com/in/kübra-eser-612851169]
+Email: [kubra90000@gmail.com]
+🙏 Thanks
 
-## 👥 Katkıda Bulunma
-
-1. Bu repoyu fork edin
-2. Yeni bir branch oluşturun (`git checkout -b feature/YeniOzellik`)
-3. Değişikliklerinizi commit edin (`git commit -am 'Yeni özellik eklendi'`)
-4. Branch'inizi push edin (`git push origin feature/YeniOzellik`)
-5. Bir Pull Request oluşturun
-
-## 🚀 Kurulum
-
-1. Repoyu klonlayın:https://github.com/KbraEser/project-shop-end
-2. npm install
-3. npm run dev
-4. npm run api(apiyi buradan çekebilir)
-
-## 🤝 İletişim
-
-- Proje Sahibi: [Kübra Eser]
-- LinkedIn: [www.linkedin.com/in/kübra-eser-612851169]
-- Email: [kubra90000@gmail.com]
-
-## 🙏 Teşekkürler
