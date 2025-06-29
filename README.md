@@ -5,6 +5,9 @@
 **🇹🇷:** Modern bir e-ticaret yönetim paneli React uygulaması.  
 **🇬🇧:** A modern e-commerce management panel React application.
 
+## 🎥 Demo Video
+[![Project Youtube Link]](https://youtu.be/MvBHsF39i5o)
+
 ## ⚡ Özellikler / Features
 
 - 📱 Responsive Tasarım / Responsive Design
