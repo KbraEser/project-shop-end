@@ -60,12 +60,12 @@
       "supplierId": 4,
       "categoryId": 6,
       "quantityPerUnit": "18 - 500 g pkgs.",
-      "unitPrice": 97,
+      "unitPrice": "150",
       "unitsInStock": 29,
       "unitsOnOrder": 0,
       "reorderLevel": 0,
       "discontinued": true,
-      "name": "Mishi Kobe Niku"
+      "name": "KOBE"
     },
     {
       "id": "10",
@@ -77,7 +77,8 @@
       "unitsOnOrder": 0,
       "reorderLevel": 0,
       "discontinued": false,
-      "name": "Ikura"
+      "name": "Ikura",
+      "isDeleted": true
     },
     {
       "id": "2",

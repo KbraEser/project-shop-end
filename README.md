@@ -1,35 +1,56 @@
-React + Vite
+# 🛍️ E-Ticaret Yönetim Paneli / E-Commerce Management Panel
 
-### 🛍️ E-Commerce Management Panel
-- This project is a full-stack web application representing a modern e-commerce management panel. It has been developed using React and various modern web technologies.
+## 📝 Proje Açıklaması / Project Description
 
-# 🌟 Features
+**🇹🇷:** Modern bir e-ticaret yönetim paneli React uygulaması.  
+**🇬🇧:** A modern e-commerce management panel React application.
 
-### User Management
-🔐 Secure user login and authorization
-👤 User profile management
-🚪 Login/logout operations
+## ⚡ Özellikler / Features
 
-### Product Management
-📝 Adding, editing, and deleting products
-🔍 Advanced product search
-📊 Category-based filtering
-📸 Product image management
+- 📱 Responsive Tasarım / Responsive Design
+- 🔐 Kullanıcı Yönetimi / User Management
+- 📦 Ürün Yönetimi / Product Management
+- 🔍 Arama ve Filtreleme / Search and Filtering
+- 📊 Kategori Yönetimi / Category Management
 
-### Interface
-📱 Fully responsive design
-🎨 Modern and user-friendly interface
-🌓 Gradient color scheme
-📊 Dynamic sidebar and navigation
+## 🛠️ Teknolojiler / Technologies
 
-### 🛠️ Technologies Used
-Frontend Framework: React.js
-Routing: React Router v6
-State Management: Context API & useReducer
-Styling: SCSS
-HTTP Client: Axios
-Icons: React Icons
-Authentication: JWT
+- React.js
+- React Router v6
+- Context API & useReducer
+- SCSS
+- Axios
+- JWT
+
+## 🚀 Kurulum / Installation
+
+```bash
+# Projeyi klonlayın / Clone the project
+git clone https://github.com/KbraEser/project-shop-end
+
+# Bağımlılıkları yükleyin / Install dependencies
+npm install
+
+# JSON Server'ı başlatın / Start JSON Server
+npm run api
+
+# Uygulamayı başlatın / Start the application
+npm run dev
+```
+
+## 🔑 Giriş Bilgileri / Login Credentials
+
+**Test Kullanıcısı / Test User:**
+- Email: john@mail.com
+- Şifre / Password: changeme
+
+**API:** Platzi Fake Store API (https://api.escuelajs.co/api/v1/auth/login)
+
+## 📞 İletişim / Contact
+
+- 👩‍💻 Kübra Eser
+- 🔗 [LinkedIn](www.linkedin.com/in/kübra-eser-612851169)
+- 📧 kubra90000@gmail.com
 
 ### 🌐 API Integrations
 
@@ -73,15 +94,5 @@ Dynamic component placement
 - Push your branch (git push origin feature/NewFeature)
 - Create a Pull Request
 
-### 🚀 Installation
-- Clone the repository: https://github.com/KbraEser/project-shop-end
-- npm install
-- npm run dev
-- npm run api (you can fetch the API from here)
-
-### 🤝 Contact
-Project Owner: [Kübra Eser]
-LinkedIn: [www.linkedin.com/in/kübra-eser-612851169]
-Email: [kubra90000@gmail.com]
 🙏 Thanks
 
